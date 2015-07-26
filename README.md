@@ -28,8 +28,8 @@ This repository is the code to follow the tutorial at
 
 ## 6.0 Migrations
 * [6.1](https://github.com/Cyricx/CodeFirstWithWebAPI2/releases/tag/6.1) Enable Migrations and run update database
-* [6.2](https://github.com/Cyricx/CodeFirstWithWebAPI2/releases/tag/6.2) Uncomment new property in Ticket
-* [6.3](https://github.com/Cyricx/CodeFirstWithWebAPI2/releases/tag/6.3) add-migration ticket-important-property then update database
+* [6.2](https://github.com/Cyricx/CodeFirstWithWebAPI2/releases/tag/6.2) add-migration ticket-important-property then update database
+* [6.3](https://github.com/Cyricx/CodeFirstWithWebAPI2/releases/tag/6.3) Uncomment new property in Ticket
 * [6.4](https://github.com/Cyricx/CodeFirstWithWebAPI2/releases/tag/6.4) add-migration ticket-important-not-needed then update database
 
 ## 7.0 Web API
