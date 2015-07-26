@@ -35,6 +35,8 @@ namespace CodeFirstWithWebAPI2.Models
         [Required]
         public int TicketCategoryID { get; set; }
 
+        public string TheImportantPropertyIForgotAbout { get; set; }
+
         //Relationships (virtual allows for lazy loading)
         public virtual TicketCategory TicketCategory { get; set; }
     }
