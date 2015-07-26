@@ -22,7 +22,7 @@ namespace CodeFirstWithWebAPI2.DAL
 
             List<Ticket> tickets = new List<Ticket>()
             {
-                new Ticket { Title=.1.1 Setup Application", TicketCategoryID = 1, 
+                new Ticket { Title="1.1 Setup Application", TicketCategoryID = 1, 
                     Details = "Create initial web application which will be an empty web application with the Web API and MVC libraries already installed.", 
                     SprintDate = new DateTime(2015, 01, 01, 5, 0 , 0), IsClosed = true  },
                 new Ticket { Title="2.1 EF Code First", TicketCategoryID = 1, 
