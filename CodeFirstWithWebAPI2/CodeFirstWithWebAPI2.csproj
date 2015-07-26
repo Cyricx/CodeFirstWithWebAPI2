@@ -121,6 +121,7 @@
     <Compile Include="Controllers\TicketCategoriesController.cs" />
     <Compile Include="Controllers\TicketsController.cs" />
     <Compile Include="DAL\MyContext.cs" />
+    <Compile Include="DAL\MyInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
