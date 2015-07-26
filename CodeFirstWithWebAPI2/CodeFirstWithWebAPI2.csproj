@@ -133,6 +133,10 @@
     <Compile Include="Migrations\201507260240094_ticket-important-property.Designer.cs">
       <DependentUpon>201507260240094_ticket-important-property.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201507260254209_ticket-important-not-needed.cs" />
+    <Compile Include="Migrations\201507260254209_ticket-important-not-needed.Designer.cs">
+      <DependentUpon>201507260254209_ticket-important-not-needed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Ticket.cs" />
     <Compile Include="Models\TicketCategory.cs" />
@@ -174,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201507260240094_ticket-important-property.resx">
       <DependentUpon>201507260240094_ticket-important-property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507260254209_ticket-important-not-needed.resx">
+      <DependentUpon>201507260254209_ticket-important-not-needed.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
