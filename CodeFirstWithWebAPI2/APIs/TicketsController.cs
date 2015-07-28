@@ -20,7 +20,7 @@ namespace CodeFirstWithWebAPI2.APIs
         // GET: api/Tickets
         public IQueryable<Ticket> GetTickets()
         {
-            return db.Tickets;
+            return db.Tickets.Include("TicketCategory");
         }
 
         // GET: api/Tickets/5

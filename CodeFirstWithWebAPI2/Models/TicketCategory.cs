@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using Newtonsoft.Json;
 
 namespace CodeFirstWithWebAPI2.Models
 {
@@ -20,6 +21,7 @@ namespace CodeFirstWithWebAPI2.Models
 
         //Relationships
         //ICollection is used to represent a category has many tickets.
+        [JsonIgnore]
         public virtual ICollection<Ticket> Tickets { get; set; }
     }
 }
