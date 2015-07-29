@@ -3,6 +3,11 @@
 This repository is the code to follow the tutorial at 
 [ChrisByram.com/Blog](http://www.chrisbyram.com/blog/2015/07/26/code-first-ef-with-web-api-2)
 
+##To Get Started with this application!
+* If you download version 2.1 or later, then go into the .nuget/Nuget.targets file and on line 16 specify that the DownloadNugetExe should be true.
+* If you download version 5.4 or later, tThen go into the root application web.config and under the EntityFramework -> contexts -> context node change the attribute disableDatabaseInitialization to false.
+Run the application and go to the tickets or ticket categories page.
+Go back into the root web.config and change disableDatabaseInitialization back to true.
 
 ## 1.0 Setup:
 * [1.1](https://github.com/Cyricx/CodeFirstWithWebAPI2/releases/tag/1.1) Create Web Application
